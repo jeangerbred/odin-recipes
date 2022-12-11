@@ -1,0 +1,40 @@
+.NavBar, .Recipes {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.Logo {
+    font-size: 24px;
+    color: #f9faf8;
+    margin: 50px;
+}
+
+.HeaderButtons > ul {
+    list-style: none;
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 50px;
+    text-indent: 2em;
+}
+
+.Recipes > ul {
+    list-style: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.Recipe , .Humba , .Giniling , .Bistek{
+    background-color: #1F2937;
+    color: #f9faf8;
+    
+}
+
+.HumbaHeader , .HumbaImg , .GinilingHeader, .GinilingImg , .BistekHeader, .BistekImg .FilFaves{
+    font-size: 48px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
